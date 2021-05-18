@@ -4,6 +4,7 @@ const menu = document.querySelector('.menu')
 const upbnt = document.querySelector('.scroll-up-btn')
 
 
+
 document.addEventListener('scroll', () => {
     if(window.scrollY > 20){
     menufield.classList.add("active")
@@ -33,3 +34,4 @@ const typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 })
+
