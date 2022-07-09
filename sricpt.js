@@ -29,7 +29,7 @@ upbnt.addEventListener('click', () => {
 
 /* typing animation script */
 const typed = new Typed(".typing", {
-    strings: ["Web Developer"],
+    strings: ["Web Developer", "Software Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true

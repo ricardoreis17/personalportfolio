@@ -162,6 +162,10 @@ section {
     padding-left: 60px;
 }
 
+.perfilPhoto{
+    background-size: cover;
+}
+
 .about .title {
     position: relative;
     text-align: center;
@@ -445,7 +449,7 @@ section {
     color: #333;
 }
 .contact .rigth {
-    margin-right: 20px;
+    margin-right: 0;
 }
 
 .contact .rigth form .fields {
@@ -504,6 +508,11 @@ section {
 .contact .rigth form .button button:hover {
     color: #E7E122;
     background: none;
+}
+
+.twitter{
+    margin-left: 90px;
+    margin-top: 60px;
 }
 
 /* responsive media query*/
